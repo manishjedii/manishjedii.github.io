@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 20px;
+  padding: 0 20px;
+  overflow: auto;
+  width: 1500px;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background-color: white;
+  height: 700px;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+}
+
+.showcase nav h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showcase nav li {
+  padding: 15px;
+  list-style: none;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase nav a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.showcase nav a:hover {
+  color: #ffbd16;
+}
+
+.showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase-content p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 15px 0px 30px 0px;
+  font-size: 23px;
+}
+
+.showcase-content img {
+  width: 30%;
+}
+
+.showcase-content a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  height: 280px;
+}
+
+footer nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav li {
+  padding: 50px;
+}
+
+footer nav a {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-bottom p {
+  text-align: center;
+  color: white;
+}
+
+.buy {
+  padding: 10px 8px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #b3b3b3;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.cart {
+  padding: 10px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
